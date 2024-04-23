@@ -1,0 +1,145 @@
+#body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(55,135,237,1) 58%, rgba(0,212,255,1) 100%);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease infinite;
+}
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    height: 100px;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    background-color: #F5F5F5;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 400px;
+    background-color: #F5F5F5;
+    padding: 45px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);   
+}
+
+form h2{
+    font-size: 35px;
+    margin-bottom: 35px;
+    color: #404040;
+}
+
+input{
+    background-color: #f1f1f1;
+    padding: 17px 20px;
+    margin-bottom: 20px;
+    border: 0;
+    border-radius: 25px;
+    color: #404040;
+    outline: none;
+    font-size: 16px;
+}
+
+.btn{
+    background-color: #3EA0E9;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: #42A8F6;
+}
+
+
+
+
+
+header{
+    font-size: 30px;
+    color: #000000;
+    text-align:end;
+    display:flex;
+    padding: 100px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+header h1{
+    color: #FFFFFF;
+    font-size: 100px;
+    text-align: start;
+}
+
+header h1:hover{
+    color: aqua;
+}
+
+p{
+    color: #fa0202;
+    font-size: 50px;
+    display: flex;
+    text-align:start;
+    width: 100px;
+    padding: 2px;
+}
+
+
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    padding-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-weight:bold;
+}
+
+h1{
+    color: #ff0000;
+}
+
+ul li{
+    display: flex;
+    padding: 0px 20px;
+    align-items:center;
+}
+
+a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+
+
+
+footer{
+    position:absolute;
+    bottom: 0;
+    width: 30%;
+    height: 20px;
+    color: white;
+    justify-content: center;
+    display: flex;
+    font-size: 12px;
+}
+  
+
